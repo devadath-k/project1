@@ -1,0 +1,169 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+#topbar{
+    padding:0;
+    background-color: rgba(51, 27, 31, 0.801);
+    width:100%;
+    
+    position:fixed;
+    text-align:center;
+}
+#icon{
+    float:left;
+    padding:5px 0px 0 5px;
+}
+.form{
+    float:left;
+    color:whitesmoke;
+    font-family:Georgia, serif; 
+    font-size: 2em;
+    padding-left: 10px;
+}
+#topbar ul{
+    list-style: none;
+    color:white;
+    display:inline-flex;
+}
+#topbar li{
+    width:150px;
+    margin:15px;
+    padding:15px;
+    
+}
+#topbar a{
+    color:white;
+    text-decoration: none;
+}
+#topbar a:hover{
+    font-size: 1.2em;
+    color:black;
+}
+.break{
+    clear:both;
+}
+#intro{
+    min-height: 100vh;
+    display:flex;
+}
+#left{
+    width:50vw;
+    text-align:centre;
+    padding-top:100px;
+}
+#box{
+    margin:100px;
+    width:380px;
+    height:480px;
+    background-color: rgba(82, 77, 78, 0.801);
+    border-radius:20px;
+    padding:20px;
+}
+#right{
+    width:50vw;
+    padding-top: 200px;
+    text-align:center;
+    color:rgba(0, 0, 0, 0.699);
+}
+#right h1{
+    padding-top:250px;
+    font-family:  Georgia, serif;
+    font-size: 4em;
+}
+#right h2{
+    padding-left:100px;
+    color:rgba(0, 0, 0, 0.699);
+}
+#right form{
+    padding-left:300px;
+    
+}
+#right input{
+    padding:10px 5px 10px 5px;
+    background-color:rgb(92, 88, 88);
+    color:whitesmoke;
+    font-weight: bold;
+}
+.title{
+    color:rgba(0, 0, 0, 0.699);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:2em;
+    padding:100px 0 0 50px;
+}
+.dish{
+   margin:30px;
+}
+.block{
+    background-color: rgba(245, 245, 245, 0.808);
+    width:300px;
+    height:400px;
+    margin:20px;
+    float:left;
+    border-radius: 10px;
+    padding:10px;
+}
+.block img{
+    float:left;
+}
+.block h2{
+padding-top: 300px;
+}
+.block input{
+    float:right;
+    border-style: solid ;
+    border-width:4px;
+    border-color: rgb(44, 216, 44);
+    color:rgb(44, 216, 44);
+    font-weight:900;
+    font-size: 0.9em;
+    padding:2px 5px 2px 5px;
+}
+.btn{
+    
+    color:rgb(44, 216, 44);
+    margin-left:200px;
+    padding-left:10px;
+    font-weight: 900;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(44, 216, 44) ;
+    cursor:pointer;
+}
+
+.btn:hover{
+    
+    font-size: 0.9em;
+}
+
+
+#search{
+    padding-left: 100px;
+    display: flex;
+}
+#search form{
+    margin-left:10;
+    padding-left:20px;
+    width:500px;
+    height:35px;
+}
+#search input{
+    border:none;
+    background-color: rgba(245, 245, 245, 0.808);
+    padding-left:40px;
+    background-image: url(image/search\ icon.png);
+    background-size: 35px ;
+    background-repeat: no-repeat;
+    
+    font-size: 1em;
+    width:100%;
+    height:100%;
+}
