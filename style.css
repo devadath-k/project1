@@ -67,6 +67,10 @@ body{
     border-radius:20px;
     padding:20px;
 }
+#box p{
+    font-size:2em;
+    
+}
 #right{
     width:50vw;
     padding-top: 200px;
