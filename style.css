@@ -172,12 +172,12 @@ padding-top: 300px;
     height:100%;
 }
 #wait {
-    width=50px;
-    height=100px;
+    width:50px;
+    height:100px;
     background-color: blue;
 }
 #wait:hover{
-    width=55px;
-    height=110px;
+    width:55px;
+    height:110px;
     background-color: chartreuse;
 }
