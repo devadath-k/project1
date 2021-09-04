@@ -75,7 +75,7 @@ body{
     width:50vw;
     padding-top: 200px;
     text-align:center;
-    color:rgba(0, 0, 0, 0.699);
+    color:rgb(0, 0, 0);
 }
 #right h1{
     padding-top:250px;
@@ -97,7 +97,7 @@ body{
     font-weight: bold;
 }
 .title{
-    color:rgba(0, 0, 0, 0.699);
+    color:rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:2em;
     padding:100px 0 0 50px;
@@ -161,7 +161,7 @@ padding-top: 300px;
 }
 #search input{
     border:none;
-    background-color: rgba(245, 245, 245, 0.808);
+    background-color: rgb(245, 245, 245);
     padding-left:40px;
     background-image: url(image/search\ icon.png);
     background-size: 35px ;
